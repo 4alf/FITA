@@ -36,7 +36,6 @@
 
 <script>
 
-
 import hoverEffect from 'hover-effect';
 
 export default {

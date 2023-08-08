@@ -13,28 +13,28 @@
       <pagination-mark />
     </section>
   </template>
-  
-  <script>
-  import PaginationMark from '@/components/PaginationMark.vue';
-  
-  export default {
-    name: 'Services',
-    components: {
-      PaginationMark,
-    },
-    data() {
-      return {
-        servicesOffered: [
-          'Digital Strategy',
-          'Brand Identity',
-          'Content Design',
-          'Content Strategy',
-          'Design and Concept',
-          'Social Media',
-          'UX Design',
-          'Media Planning',
-          'SEO Integration',
-        ],
+
+<script>
+import PaginationMark from '@/components/PaginationMark.vue';
+
+export default {
+  name: 'Services',
+  components: {
+    PaginationMark,
+  },
+  data() {
+    return {
+      servicesOffered: [
+        'Digital Strategy',
+        'Brand Identity',
+        'Content Design',
+        'Content Strategy',
+        'Design and Concept',
+        'Social Media',
+        'UX Design',
+        'Media Planning',
+        'SEO Integration',
+      ],
     };
   },
 };
