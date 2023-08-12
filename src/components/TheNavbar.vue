@@ -1,7 +1,7 @@
 <template>
     <nav class="nav">
       <div class="logo">
-        <router-link :to="'/'"> <h1>Cortex.</h1></router-link>
+        <router-link :to="'/'"> <h1>4ALF.</h1></router-link>
       </div>
       <ul class="nav-links" v-if="!isNotMobileScreen">
         <li v-for="(item, index) in links" :key="index">
